@@ -1,0 +1,94 @@
+Configuration	Lab_8
+STM32CubeMX 	5.6.0
+Date	06/08/2020
+MCU	STM32F103R6Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH1	TIM2_CH1	PA15
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC0	GPIO_Output	
+15	PA1	GPIO_Output	LCD_RS
+16	PA2	GPIO_Output	LCD_EN
+17	PA3	GPIO_Output	LCD_D4
+20	PA4	GPIO_Output	LCD_D5
+21	PA5	GPIO_Output	LCD_D6
+22	PA6	GPIO_Output	LCD_D7
+26	PB0	GPIO_Input	eoc
+27	PB1	GPIO_Input	blank
+28	PB2	GPIO_Input	long
+42	PA9	USART1_TX	
+43	PA10	USART1_RX	
+50	PA15	TIM2_CH1	
+55	PB3	GPIO_Input	short
+56	PB4	GPIO_Output	
+57	PB5	GPIO_Output	
+58	PB6	GPIO_Output	
+59	PB7	GPIO_Output	
+61	PB8	GPIO_Input	clear_lcd
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH1	TIM2_CH1	PA15
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC0	GPIO_Output	
+15	PA1	GPIO_Output	LCD_RS
+16	PA2	GPIO_Output	LCD_EN
+17	PA3	GPIO_Output	LCD_D4
+20	PA4	GPIO_Output	LCD_D5
+21	PA5	GPIO_Output	LCD_D6
+22	PA6	GPIO_Output	LCD_D7
+26	PB0	GPIO_Input	eoc
+27	PB1	GPIO_Input	blank
+28	PB2	GPIO_Input	long
+42	PA9	USART1_TX	
+43	PA10	USART1_RX	
+50	PA15	TIM2_CH1	
+55	PB3	GPIO_Input	short
+56	PB4	GPIO_Output	
+57	PB5	GPIO_Output	
+58	PB6	GPIO_Output	
+59	PB7	GPIO_Output	
+61	PB8	GPIO_Input	clear_lcd
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Lab_8
+Project Folder : C:\Users\fatih\Documents\CubeMxProjects\Lab_8
+Toolchain / IDE : MDK-ARM V5.27
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
