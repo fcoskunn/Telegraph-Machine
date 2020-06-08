@@ -1,6 +1,7 @@
 # Telegraph-Machine
 ## Morse Encoder &amp; Decoder developed with STM32F103
-[![Proteus](https://lh4.googleusercontent.com/Sj7HjnH7awhHexVHCYQEWOlG7Ul87CjJ5LNXHVV1vxLNa6BB6_LrEqLWvI_W0v1JjjoSpA)](https://lh4.googleusercontent.com/Sj7HjnH7awhHexVHCYQEWOlG7Ul87CjJ5LNXHVV1vxLNa6BB6_LrEqLWvI_W0v1JjjoSpA)
+
+![Proteus](https://raw.githubusercontent.com/fcoskunn/Telegraph-Machine/master/Proteus%20Interface.png)
 
 ## Goal Statement
 
@@ -18,7 +19,7 @@ The main goal of the project is remaking the telegraph machine with using modern
 *   Uses button to take input as Morse Code.
 
 
-[![Function Diagram](https://lh5.googleusercontent.com/LnLSM9r22mMQJlQKwRDgVAfGtET1_ZAw_lAxb1oyzgteyV0vAqzAaKWI_xAd6gS119Yy755g4KbFN0xDlwDqh-ZnOQJX9hgb9GyZ76NYCmgvVVKDWl8=w1280)](https://lh5.googleusercontent.com/LnLSM9r22mMQJlQKwRDgVAfGtET1_ZAw_lAxb1oyzgteyV0vAqzAaKWI_xAd6gS119Yy755g4KbFN0xDlwDqh-ZnOQJX9hgb9GyZ76NYCmgvVVKDWl8=w1280)
+![Function Diagram](https://raw.githubusercontent.com/fcoskunn/Telegraph-Machine/master/Functional%20Diagram.png)
 
 ### Component List
 
